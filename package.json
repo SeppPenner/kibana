@@ -69,7 +69,9 @@
     "kbn:watch": "node scripts/kibana --dev --logging.json=false",
     "build:types": "tsc --p tsconfig.types.json",
     "core:acceptApiChanges": "yarn build:types && node scripts/check_core_api_changes.js --accept",
-    "kbn:bootstrap": "yarn build:types && node scripts/register_git_hook"
+    "kbn:bootstrap": "yarn build:types && node scripts/register_git_hook",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -249,7 +251,8 @@
     "whatwg-fetch": "^3.0.0",
     "wreck": "^14.0.2",
     "x-pack": "8.0.0",
-    "yauzl": "2.7.0"
+    "yauzl": "2.7.0",
+    "snyk": "^1.190.0"
   },
   "devDependencies": {
     "@babel/parser": "^7.3.4",
@@ -421,5 +424,6 @@
   "engines": {
     "node": "10.15.2",
     "yarn": "^1.10.1"
-  }
+  },
+  "snyk": true
 }
