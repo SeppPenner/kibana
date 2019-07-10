@@ -12,3 +12,7 @@ patch:
         patched: '2019-07-04T03:59:45.044Z'
     - node-sass > gaze > globule > lodash:
         patched: '2019-07-04T03:59:45.044Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-10T07:01:42.210Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-10T07:01:42.210Z'
