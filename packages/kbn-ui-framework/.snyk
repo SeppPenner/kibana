@@ -9,6 +9,6 @@ patch:
     - react-color > reactcss > lodash:
         patched: '2019-07-03T22:18:12.123Z'
     - snyk > snyk-mvn-plugin > lodash:
-        patched: '2019-07-10T07:00:41.221Z'
+        patched: '2019-07-10T07:00:44.689Z'
     - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
-        patched: '2019-07-10T07:00:41.221Z'
+        patched: '2019-07-10T07:00:44.689Z'
