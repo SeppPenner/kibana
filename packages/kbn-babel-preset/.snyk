@@ -20,3 +20,7 @@ patch:
         patched: '2019-07-03T22:31:21.763Z'
     - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
         patched: '2019-07-03T22:31:21.763Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-10T07:00:49.854Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-10T07:00:49.854Z'
