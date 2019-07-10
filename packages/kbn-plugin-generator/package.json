@@ -13,7 +13,7 @@
     "lodash.snakecase": "^4.1.1",
     "lodash.startcase": "^4.4.0",
     "sao": "^1.0.0",
-    "snyk": "^1.189.0"
+    "snyk": "^1.192.4"
   },
   "scripts": {
     "snyk-protect": "snyk protect",

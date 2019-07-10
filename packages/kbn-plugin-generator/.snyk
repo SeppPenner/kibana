@@ -6,3 +6,7 @@ patch:
   SNYK-JS-LODASH-450202:
     - sao > inquirer > lodash:
         patched: '2019-07-04T02:01:12.721Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-10T07:01:40.353Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-10T07:01:40.353Z'
