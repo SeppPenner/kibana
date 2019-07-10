@@ -6,3 +6,7 @@ patch:
   SNYK-JS-LODASH-450202:
     - eslint-import-resolver-webpack > lodash:
         patched: '2019-07-04T01:17:31.921Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-10T07:01:13.840Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-10T07:01:13.840Z'
