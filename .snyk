@@ -46,3 +46,6 @@ patch:
         patched: '2019-07-04T08:45:29.490Z'
     - '@babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
         patched: '2019-07-04T08:45:29.490Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - https-proxy-agent:
+        patched: '2019-10-04T08:43:23.323Z'

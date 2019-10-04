@@ -252,7 +252,7 @@
     "wreck": "^14.0.2",
     "x-pack": "8.0.0",
     "yauzl": "2.7.0",
-    "snyk": "^1.190.0"
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "@babel/parser": "^7.3.4",
