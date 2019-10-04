@@ -24,7 +24,7 @@
     "@babel/parser": "^7.3.4",
     "@babel/traverse": "^7.3.4",
     "lodash": "^4.17.11",
-    "snyk": "^1.192.4"
+    "snyk": "^1.231.0"
   },
   "snyk": true
 }
