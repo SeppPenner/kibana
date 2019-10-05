@@ -23,7 +23,7 @@
     "through2": "^2.0.3",
     "through2-map": "^3.0.0",
     "vinyl-fs": "^3.0.0",
-    "snyk": "^1.192.4"
+    "snyk": "^1.231.0"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
