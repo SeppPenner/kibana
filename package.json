@@ -182,7 +182,7 @@
     "lodash": "4.17.11",
     "lodash.clonedeep": "^4.5.0",
     "lru-cache": "4.1.1",
-    "markdown-it": "^8.4.1",
+    "markdown-it": "^10.0.0",
     "mini-css-extract-plugin": "0.4.4",
     "minimatch": "^3.0.4",
     "mkdirp": "0.5.1",
