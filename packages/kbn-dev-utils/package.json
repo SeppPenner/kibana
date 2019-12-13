@@ -8,7 +8,9 @@
   "scripts": {
     "build": "babel src --out-dir target",
     "kbn:bootstrap": "yarn build --quiet",
-    "kbn:watch": "yarn build --watch"
+    "kbn:watch": "yarn build --watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "chalk": "^2.4.1",
@@ -16,12 +18,14 @@
     "moment": "^2.20.1",
     "rxjs": "^6.2.1",
     "tree-kill": "^1.2.0",
-    "tslib": "^1.9.3"
+    "tslib": "^1.9.3",
+    "snyk": "^1.258.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@kbn/babel-preset": "1.0.0",
     "@kbn/expect": "1.0.0",
     "chance": "1.0.6"
-  }
+  },
+  "snyk": true
 }
